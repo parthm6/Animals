@@ -1,11 +1,12 @@
-package com.example.animals
+package com.example.animals.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.animals.R
 
-class MainActivity : AppCompatActivity() {
+class HomePage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_home_page)
     }
 }
